@@ -32,10 +32,12 @@ nav > a{
 nav > a#quente:hover{
     transition: 0.5s;
     background-color: rgba(255, 0, 0, 0.541);
+    transform: scale(1.1);
 }
 nav > a#frio:hover{
     transition: 0.5s;
     background-color: rgba(174, 0, 255, 0.651);
+    transform: scale(1.1);
 }
 nav > a:visited{
     color: rgb(131, 245, 220)
@@ -126,3 +128,16 @@ footer img:hover{
     transition: 500ms;
 }
 
+span#menu{
+    color: white;
+    
+    
+}
+span#menu:hover{
+    
+    cursor: pointer;
+}
+ul{
+    display: none;
+    flex-flow: column nowrap;
+}
